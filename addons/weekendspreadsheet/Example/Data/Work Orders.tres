@@ -1,0 +1,44 @@
+[gd_resource type="Resource" script_class="SpreadSheetData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/weekendspreadsheet/Scripts/SpreadSheetData.gd" id="1_qjhr6"]
+
+[resource]
+script = ExtResource("1_qjhr6")
+headers = ["WO", "District", "LeadTech", "Service", "Rush", "ReqDate", "WorkDate", "Techs", "WtyLbr", "WtyParts", "LbrHrs", "PartsCost", "Payment", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+rowsLookup = {
+"A00100": PackedStringArray("A00100", "North", "Khan", "Assess", "", "01-Sep-20", "15-Sep-20", "2", "", "", "0.5", "360", "Account", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+"A00101": PackedStringArray("A00101", "South", "Lopez", "Replace", "", "01-Sep-20", "04-Sep-20", "1", "", "", "0.5", "90.04", "Account", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+"A00102": PackedStringArray("A00102", "Central", "Cartier", "Deliver", "", "01-Sep-20", "17-Sep-20", "1", "", "", "0.25", "120", "P.O.", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+"A00103": PackedStringArray("A00103", "South", "Lopez", "Deliver", "", "01-Sep-20", "17-Sep-20", "1", "", "", "0.25", "16.25", "Account", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+"A00104": PackedStringArray("A00104", "Northwest", "Cartier", "Deliver", "Yes", "01-Sep-20", "17-Sep-20", "1", "", "", "0.25", "45.24", "Account", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+"A00105": PackedStringArray("A00105", "South", "Lopez", "Assess", "", "01-Sep-20", "15-Sep-20", "1", "", "", "0.25", "97.63", "Account", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+"A00106": PackedStringArray("A00106", "Central", "Cartier", "Assess", "", "02-Sep-20", "16-Sep-20", "2", "", "", "0.25", "29.13", "Account", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+"A00107": PackedStringArray("A00107", "South", "Lopez", "Replace", "", "02-Sep-20", "02-Oct-20", "1", "", "", "0.75", "35.1", "Account", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+"A00108": PackedStringArray("A00108", "Northwest", "Burton", "Deliver", "", "02-Sep-20", "01-Oct-20", "1", "", "", "0.25", "76.7", "C.O.D.", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+"A00109": PackedStringArray("A00109", "Central", "Khan", "Repair", "Yes", "02-Sep-20", "06-Oct-20", "1", "", "", "1.5", "374.08", "C.O.D.", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+"A00110": PackedStringArray("A00110", "West", "Burton", "Replace", "", "02-Sep-20", "08-Dec-20", "2", "", "2", "4.75", "832.16", "Account", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+"A00111": PackedStringArray("A00111", "South", "Lopez", "Deliver", "Yes", "03-Sep-20", "23-Sep-20", "1", "", "", "0.25", "70.21", "Account", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+"A00112": PackedStringArray("A00112", "West", "Burton", "Assess", "", "04-Sep-20", "30-Sep-20", "1", "", "", "0.5", "150", "P.O.", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+"A00113": PackedStringArray("A00113", "Central", "Michner", "Assess", "", "04-Sep-20", "24-Oct-20", "2", "", "", "1.5", "275", "C.O.D.", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+"A00114": PackedStringArray("A00114", "Northwest", "Khan", "Replace", "Yes", "04-Sep-20", "10-Nov-20", "1", "", "", "0.75", "938", "C.O.D.", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+"A00115": PackedStringArray("A00115", "South", "Lopez", "Assess", "", "05-Sep-20", "21-Sep-20", "1", "", "", "0.25", "61.25", "Account", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+"A00116": PackedStringArray("A00116", "West", "Burton", "Assess", "", "05-Sep-20", "22-Sep-20", "1", "", "1", "1.5", "48", "C.O.D.", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+"A00117": PackedStringArray("A00117", "Northwest", "Burton", "Assess", "", "07-Sep-20", "10-Sep-20", "2", "", "", "0.25", "204.28", "Account", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+"A00118": PackedStringArray("A00118", "Northwest", "Cartier", "Replace", "", "08-Sep-20", "15-Sep-20", "2", "", "", "0.5", "240", "Account", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+"A00119": PackedStringArray("A00119", "Southeast", "Khan", "Replace", "", "08-Sep-20", "17-Sep-20", "2", "", "23", "0.5", "120", "Account", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+"A00120": PackedStringArray("A00120", "Central", "Cartier", "Repair", "", "08-Sep-20", "21-Sep-20", "1", "", "", "1.75", "475", "Account", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+"A00121": PackedStringArray("A00121", "Southeast", "Khan", "Replace", "", "08-Sep-20", "22-Sep-20", "1", "", "", "1.75", "341", "C.O.D.", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+"A00122": PackedStringArray("A00122", "Northwest", "Khan", "Assess", "", "08-Sep-20", "28-Oct-20", "1", "", "", "0.75", "61.18", "C.O.D.", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+"A00123": PackedStringArray("A00123", "South", "Lopez", "Replace", "", "08-Sep-20", "17-Nov-20", "1", "", "", "0.5", "155.39", "Account", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+"A00124": PackedStringArray("A00124", "Northwest", "Michner", "Replace", "Yes", "09-Sep-20", "24-Sep-20", "2", "", "", "0.5", "204.28", "C.O.D.", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+"A00125": PackedStringArray("A00125", "South", "Lopez", "Assess", "", "09-Sep-20", "29-Sep-20", "1", "", "", "0.5", "37.92", "Account", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+"A00126": PackedStringArray("A00126", "Northwest", "Burton", "Deliver", "Yes", "09-Sep-20", "29-Sep-20", "1", "", "", "0.25", "88.41", "Account", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+"A00127": PackedStringArray("A00127", "South", "Lopez", "Deliver", "", "09-Sep-20", "29-Sep-20", "1", "", "1", "0.25", "202.29", "Account", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+"A00128": PackedStringArray("A00128", "West", "Khan", "Assess", "", "10-Sep-20", "28-Sep-20", "1", "", "", "0.5", "120", "P.O.", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+"A00129": PackedStringArray("A00129", "Northwest", "Michner", "Deliver", "", "11-Sep-20", "14-Sep-20", "1", "", "", "0.25", "120", "Account", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+"A00130": PackedStringArray("A00130", "Southwest", "Cartier", "Replace", "", "11-Sep-20", "15-Sep-20", "2", "", "", "0.5", "535.62", "C.O.D.", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+"A00131": PackedStringArray("A00131", "Northwest", "Khan", "Assess", "", "11-Sep-20", "23-Sep-20", "2", "", "", "0.25", "24.63", "Account", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+"A00132": PackedStringArray("A00132", "Northwest", "Khan", "Replace", "", "11-Sep-20", "26-Sep-20", "2", "", "", "0.5", "43.26", "Account", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+"A00133": PackedStringArray("A00133", "West", "Khan", "Assess", "", "11-Sep-20", "06-Oct-20", "1", "", "", "0.25", "21.33", "Account", "", "", "", "", "", "", "", "", "", "", "", "", ""),
+"A00134": PackedStringArray("A00134", "West", "Khan", "Replace", "", "12-Sep-20", "28-Sep-20", "1", "", "1", "1", "0.46", "C.O.D.", "", "", "", "", "", "", "", "", "", "", "", "", "")
+}

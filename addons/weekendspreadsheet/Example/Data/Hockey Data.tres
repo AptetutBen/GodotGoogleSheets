@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="SpreadSheetData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/weekendspreadsheet/Scripts/SpreadSheetData.gd" id="1_umwih"]
+
+[resource]
+script = ExtResource("1_umwih")
+headers = ["ID", "Team", "Country", "NameF", "NameL", "Weight", "Height", "DOB", "Hometown", "Prov", "Pos", "Age", "HeightFt", "HtIn", "BMI", "", "", "", "", "", "", "", "", "", "", ""]
+rowsLookup = {
+"1": PackedStringArray("1", "Women", "Canada", "Meghan", "Agosta", "148", "5\'7", "12/2/1987", "Ruthven", "Ont.", "Forward", "36", "0.58", "7", "2123", "", "", "", "", "", "", "", "", "", "", ""),
+"10": PackedStringArray("10", "Women", "Canada", "Haley", "Irwin", "170", "5\'7", "6/6/1988", "Thunder Bay", "Ont.", "Forward", "35", "0.58", "7", "2439", "", "", "", "", "", "", "", "", "", "", ""),
+"11": PackedStringArray("11", "Women", "Canada", "Natalie", "Spooner", "180", "5\'10", "17/10/1990", "Scarborough", "Ont.", "Forward", "33", "0.83", "10", "1265", "", "", "", "", "", "", "", "", "", "", ""),
+"12": PackedStringArray("12", "Women", "Canada", "Emily", "Clark", "130", "5\'7", "28/11/1995", "Saskatoon", "Sask.", "Forward", "28", "0.58", "7", "1865", "", "", "", "", "", "", "", "", "", "", ""),
+"13": PackedStringArray("13", "Women", "Canada", "Marie-Philip", "Poulin", "160", "5\'7", "28/3/1991", "Beauceville", "Que.", "Forward", "32", "0.58", "7", "2296", "", "", "", "", "", "", "", "", "", "", ""),
+"14": PackedStringArray("14", "Women", "Canada", "Blayre", "Turnbull", "155", "5\'7", "15/7/1993", "Stellarton", "N.S.", "Forward", "30", "0.58", "7", "2224", "", "", "", "", "", "", "", "", "", "", ""),
+"15": PackedStringArray("15", "Women", "Canada", "Jocelyne", "Larocque", "139", "5\'6", "19/5/1988", "Ste. Anne", "Man.", "Defence", "35", "0.5", "6", "2714", "", "", "", "", "", "", "", "", "", "", ""),
+"16": PackedStringArray("16", "Women", "Canada", "Brigette", "Lacquette", "180", "5\'6", "11/10/1992", "Mallard", "Man.", "Defence", "31", "0.5", "6", "3515", "", "", "", "", "", "", "", "", "", "", ""),
+"17": PackedStringArray("17", "Women", "Canada", "Lauriane", "Rougeau", "167", "5\'8", "12/4/1990", "Beaconsfield", "Que.", "Defence", "33", "0.67", "8", "1834", "", "", "", "", "", "", "", "", "", "", ""),
+"18": PackedStringArray("18", "Women", "Canada", "Laura", "Fortino", "137", "5\'4", "30/1/1991", "Hamilton", "Ont.", "Defence", "33", "0.33", "4", "6019", "", "", "", "", "", "", "", "", "", "", ""),
+"19": PackedStringArray("19", "Women", "Canada", "Meaghan", "Mikkelson", "139", "5\'9", "4/1/1985", "St. Albert", "Alta.", "Defence", "39", "0.75", "9", "1206", "", "", "", "", "", "", "", "", "", "", ""),
+"2": PackedStringArray("2", "Women", "Canada", "Rebecca", "Johnston", "148", "5\'9", "24/9/1989", "Sudbury", "Ont.", "Forward", "34", "0.75", "9", "1284", "", "", "", "", "", "", "", "", "", "", ""),
+"20": PackedStringArray("20", "Women", "Canada", "Renata", "Fast", "144", "5\'6", "6/10/1994", "Burlington", "Ont.", "Defence", "29", "0.5", "6", "2812", "", "", "", "", "", "", "", "", "", "", ""),
+"21": PackedStringArray("21", "Women", "Canada", "Shannon", "Szabados", "146", "5\'8", "6/8/1986", "Edmonton", "Alta.", "Goalie", "37", "0.67", "8", "1604", "", "", "", "", "", "", "", "", "", "", ""),
+"22": PackedStringArray("22", "Women", "Canada", "Geneviève", "Lacasse", "136", "5\'8", "5/5/1989", "Kingston", "Ont.", "Goalie", "34", "0.67", "8", "1494", "", "", "", "", "", "", "", "", "", "", ""),
+"23": PackedStringArray("23", "Women", "Canada", "Ann-Renée", "Desbiens", "160", "5\'9", "10/4/1994", "La Malbaie", "Que.", "Goalie", "29", "0.75", "9", "1389", "", "", "", "", "", "", "", "", "", "", ""),
+"24": PackedStringArray("24", "Men", "Canada", "Gilbert", "Brulé", "190", "5\'11", "1/1/1987", "Vancouver", "B.C.", "Forward", "37", "0.92", "11", "1104", "", "", "", "", "", "", "", "", "", "", ""),
+"3": PackedStringArray("3", "Women", "Canada", "Laura", "Stacey", "156", "5\'10", "5/5/1994", "Kleinburg", "Ont.", "Forward", "29", "0.83", "10", "1097", "", "", "", "", "", "", "", "", "", "", ""),
+"4": PackedStringArray("4", "Women", "Canada", "Jennifer", "Wakefield", "172", "5\'10", "15/6/1989", "Pickering", "Ont.", "Forward", "34", "0.83", "10", "1209", "", "", "", "", "", "", "", "", "", "", ""),
+"5": PackedStringArray("5", "Women", "Canada", "Jillian", "Saulnier", "144", "5\'5", "7/3/1992", "Halifax", "N.S.", "Forward", "31", "0.42", "5", "4049", "", "", "", "", "", "", "", "", "", "", ""),
+"6": PackedStringArray("6", "Women", "Canada", "Mélodie", "Daoust", "159", "5\'6", "7/1/1992", "Valleyfield", "Que.", "Forward", "32", "0.5", "6", "3105", "", "", "", "", "", "", "", "", "", "", ""),
+"7": PackedStringArray("7", "Women", "Canada", "Bailey", "Bram", "150", "5\'8", "5/9/1990", "St. Anne", "Man.", "Forward", "33", "0.67", "8", "1648", "", "", "", "", "", "", "", "", "", "", ""),
+"8": PackedStringArray("8", "Women", "Canada", "Brianne", "Jenner", "156", "5\'9", "4/5/1991", "Oakville", "Ont.", "Forward", "32", "0.75", "9", "1354", "", "", "", "", "", "", "", "", "", "", ""),
+"9": PackedStringArray("9", "Women", "Canada", "Sarah", "Nurse", "140", "5\'8", "4/1/1995", "Hamilton", "Ont.", "Forward", "29", "0.67", "8", "1538", "", "", "", "", "", "", "", "", "", "", "")
+}
