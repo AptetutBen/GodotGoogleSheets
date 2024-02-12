@@ -87,6 +87,7 @@ func _on_folder_line_edit_text_changed(new_text):
 
 
 func _on_id_line_edit_text_changed(new_text):
+	id = new_text
 	settingsFile.spreadsheetId = new_text
 	ResourceSaver.save(settingsFile,settingsLocation)
 

@@ -4,9 +4,8 @@
 
 [resource]
 script = ExtResource("1_o7v16")
-spreadsheetId = "1ThhCN1OdbKDaUJCrCnnJLNKMyMlpetQwEeE_T4RnlgU"
+spreadsheetId = "1hrO-juGfxRG2suiO_gcb65PuvNFTcArv7cIK3M3hhqk"
 resourceFolder = "Data"
 pages = {
-"0": "Work Orders",
-"1631784146": "Hockey Data"
+"0": "Items"
 }

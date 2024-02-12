@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="SpreadSheetData" load_steps=2 format=3 uid="uid://byqx5p7jtqnoq"]
+
+[ext_resource type="Script" path="res://addons/weekendspreadsheet/Scripts/SpreadSheetData.gd" id="1_y06pq"]
+
+[resource]
+script = ExtResource("1_y06pq")
+headers = ["id", "name", "description"]
+rowsLookup = {
+"ash_tray": ["ash_tray", "Ash Tray", "Bad choices trappen in a haze of smoke and shadows."],
+"car_battery": ["car_battery", "Car Battery", "It faintly hums as you hold it, its dim glow casting eerie shadows."],
+"tape_cassette": ["tape_cassette", "Cassette", "A testament to forgotten memories and lost melodies."],
+"vhs_cassette": ["vhs_cassette", "VHS Cassette", "Its label barely discernible under layers of dust."]
+}
